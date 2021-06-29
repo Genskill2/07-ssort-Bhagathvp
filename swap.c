@@ -24,6 +24,7 @@ int ssort(int arr[], int l){
 void main(void){
 	int arr[]={9,5,12,6,22,18,7,10,4};
 	int l=9;
+	char a;
 	printf("the array is \n|");
 	for(int i=0; i<9;i++)
 	printf(" %i |",arr[i]);
@@ -36,7 +37,7 @@ void main(void){
 	for(int i=0; i<9;i++)
 	printf(" %i |",arr[i]);
 	printf("\n");
-	char a=get_char("do you want to swap again(Y/N):");
+	a=get_char("do you want to swap again(Y/N):");
 	}while( a=='Y'|| a=='y');
 	
 	ssort(arr,l);
