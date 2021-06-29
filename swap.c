@@ -21,7 +21,7 @@ int ssort(int arr[], int l){
 	
 }
 
-void main(void){
+int main(void){
 	int arr[]={9,5,12,6,22,18,7,10,4};
 	int l=9;
 	char a;
