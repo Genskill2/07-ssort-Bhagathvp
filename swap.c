@@ -20,25 +20,3 @@ int ssort(int arr[], int l){
 	printf("\n");
 	
 }
-
-int main(void){
-	int arr[]={9,5,12,6,22,18,7,10,4};
-	int l=9;
-	char a;
-	printf("the array is \n|");
-	for(int i=0; i<9;i++)
-	printf(" %i |",arr[i]);
-	printf("\n");
-	
-	do{
-	int n=get_int("enter position ");
-	swap_max(arr,l,n);
-	printf("the array after swap_max is \n|");
-	for(int i=0; i<9;i++)
-	printf(" %i |",arr[i]);
-	printf("\n");
-	a=get_char("do you want to swap again(Y/N):");
-	}while( a=='Y'|| a=='y');
-	
-	ssort(arr,l);
-}
